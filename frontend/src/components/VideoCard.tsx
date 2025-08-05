@@ -1,6 +1,6 @@
 export function VideoCard(props: any){
     return(
-        <div className="p-3">
+        <div className="p-3 cursor-pointer">
             <img src={props.Timage} className="rounded-lg"></img>
             <div className="grid grid-cols-12 pt-2">
                 <div className="col-span-1">
