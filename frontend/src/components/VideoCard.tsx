@@ -1,5 +1,5 @@
 export function VideoCard(){
     return(
-        <div>VideoCard</div>
+        <img src="/photo.jpg"></img>
     )
 }
