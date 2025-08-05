@@ -15,7 +15,14 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
    <div>
-      <VideoCard></VideoCard>
+      <VideoCard
+      title={"Top Best Nasheed ever"}
+      channel = {"Yahya Yusuf"}
+      views = {"100M views"}
+      date = {"2 days ago"}
+      Timage = {'maxresdefault.jpg'}
+      icon = {'icon.jpg'}
+      ></VideoCard>
    </div>
   );
 }
