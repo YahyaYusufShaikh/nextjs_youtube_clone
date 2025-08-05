@@ -1,5 +1,5 @@
 export const AppBar = () => {
-    return <div className=" grid grid-cols-3">
+    return <div className="flex justify-between">
         <div>
             Youtube
         </div>
